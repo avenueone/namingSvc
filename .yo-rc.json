@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.avenue1.naming",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.6.1",
+    "applicationType": "microservice",
+    "baseName": "namingSvc",
+    "packageName": "org.avenue1.naming",
+    "packageFolder": "org/avenue1/naming",
+    "serverPort": "8083",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZTQ0NDc0MjZmMTBkYTllNjE1NWM4NzNhMWFhYmVmYTYwMmRjMGZjMzkxYmQ1NjQ4MmNmMGRmMjUzNGU4NzJiMGI1MGIwOGU5YjNiMmI4NGUyYWJlNWE4MTMyZDZkNWU5OGU0MTcxYjc1MjdhNGIwOGY5N2IyOTFjMDljZGE0ZmQ=",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "fr",
+      "de",
+      "es"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
