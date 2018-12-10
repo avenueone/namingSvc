@@ -1,0 +1,50 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "namingSvc",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "entityType",
+            "fieldType": "EntityTypeEnum",
+            "fieldValues": "DESIGN,CONTAINER,PAGE,CAMPAIGN,TEMPLATE,OFFER",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength"
+            ],
+            "fieldValidateRulesMinlength": "4"
+        },
+        {
+            "fieldName": "created",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "format",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "prefix",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "suffix",
+            "fieldType": "String"
+        }
+    ],
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "names",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "namingSvc"
+}
